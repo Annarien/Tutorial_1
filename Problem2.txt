@@ -1,0 +1,26 @@
+LECTURE 1,2,3 
+
+1.How can you list all files in a directory, with the most recent one displayed last?
+
+In the terminal it is possible to see all files in a particular directory by typing "ls" which indicates list. 
+This will show a list of all files, with the most recent oe displayed last.
+
+2.a)How can you display the first 25 lines of a file? How can you display just lines 16 through 25?
+
+a)Make a for loop where int i starts from 0 and goes to required number of lines, which is 25
+
+start=0
+end=25
+lines=[start,end]
+i=start
+f=open('filename')
+for line in f:
+ if i in lines:
+  print i
+i+=1
+
+b)change start to 16 and end to 25
+
+3. How can you search for all commands relating to python? Hint - it will be a use of “man”.
+
+To search for all commands relating to python, type "man <command>"
